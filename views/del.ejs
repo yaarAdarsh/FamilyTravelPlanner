@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete User</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/new.css">
+</head>
+
+<body>
+  <h1>Delete a Family Member</h1>
+  <form action="/delete" method="post">
+    <p>What's your name?</p>
+    <input type="text" name="name" placeholder="Enter correct upper/lower case !">
+
+   
+    <div class="spacer"></div>
+    <button type="submit">Delete</button>
+  </form>
+  <% if (locals.errorMessage) { %>
+    <script>
+        alert("<%= errorMessage %>");
+    </script>
+  <% } %>
+</body>
+
+</html>
