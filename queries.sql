@@ -16,7 +16,7 @@ CREATE TABLE visited_countries (
 );
 
 INSERT INTO users (name, color)
-VALUES ('Angela', 'teal'), ('Jack', 'powderblue');
+VALUES ('Admin', 'powderblue'), ('Rishi', 'green');
 
 INSERT INTO visited_countries (country_code, user_id)
 VALUES ('FR', 1), ('GB', 1), ('CA', 2), ('FR', 2 );
