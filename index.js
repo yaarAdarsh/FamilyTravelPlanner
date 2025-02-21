@@ -13,6 +13,7 @@ const db = new pg.Client({
   database: process.env.DATABASE,
   password: process.env.PASSWORD,
   port: process.env.PORT2,
+  ssl: { rejectUnauthorized: false } 
 });
 db.connect();
 
@@ -112,8 +113,7 @@ app.post("/user", async (req, res) => {
 });
 
 app.post("/new", async (req, res) => {
-  //Hint: The RETURNING keyword can return the data that was inserted.
-  //https://www.postgresql.org/docs/current/dml-returning.html
+
 
   const name = req.body.name;
   const color = req.body.color;
