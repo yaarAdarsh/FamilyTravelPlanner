@@ -30,7 +30,6 @@ id,country_code,country_name
 30,BV,Bouvet Island
 31,BR,Brazil
 32,VG,British Virgin Islands
-33,IO,British Indian Ocean Territory
 34,BN,Brunei Darussalam
 35,BG,Bulgaria
 36,BF,Burkina Faso
@@ -44,14 +43,10 @@ id,country_code,country_name
 44,TD,Chad
 45,CL,Chile
 46,CN,China
-47,HK,"Hong Kong, SAR China"
 48,CR,Costa Rica
-49,MO,"Macao, SAR China"
-50,CX,Christmas Island
-51,CC,Cocos (Keeling) Islands
 52,CO,Colombia
 53,KM,Comoros
-54,CD,"Congo, (Kinshasa)"
+54,CD,Congo
 55,CK,Cook Islands
 56,CI,Côte d'Ivoire
 57,HR,Croatia
@@ -95,11 +90,10 @@ id,country_code,country_name
 95,GY,Guyana
 96,HT,Haiti
 97,HM,Heard and Mcdonald Islands
-98,VA,Holy See (Vatican City State)
 99,HN,Honduras
 100,HU,Hungary
 101,IS,Iceland
-102,FM,"Micronesia, Federated States of"
+102,FM,Micronesia
 103,RE,Réunion
 104,ID,Indonesia
 105,IR,Iran
@@ -209,8 +203,7 @@ id,country_code,country_name
 210,SZ,Swaziland
 211,SE,Sweden
 212,CH,Switzerland
-213,SY,Syrian Arab Republic (Syria)
-214,TW,"Taiwan, Republic of China"
+213,SY,Syria
 215,TJ,Tajikistan
 216,TZ,"Tanzania, United Republic of"
 217,TH,Thailand
@@ -236,7 +229,7 @@ id,country_code,country_name
 237,UY,Uruguay
 238,UZ,Uzbekistan
 239,VU,Vanuatu
-240,VE,Venezuela (Bolivarian Republic)
+240,VE,Venezuela 
 241,VN,Viet Nam
 242,VI,Virgin Islands
 243,WF,Wallis and Futuna Islands
